@@ -14,4 +14,5 @@
     mkdir backup # will create a sub directory named backup.
     mkdir transfer # will create a sub directory named transfer.
     cp vsftpd1.log /home/crio-user/workspace/QBox/backup # will move the file named "vsftpd1.log" to the sub directory named backup.
-    
+    cd ~/workspace/QBox # will change directory to workspace.
+    tree  # will print the tree structure of the directory QBox
