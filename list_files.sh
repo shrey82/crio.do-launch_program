@@ -6,8 +6,8 @@
     #    sorted by modification time in reverse order (newest last). 
     #    This command should work irrespective of the current working directory.
     # 2) Execute the script before submission and confirm the output
-    cd ~/workspace # will escape the current work directory to the directory named workspace
-    cd QBox/logs # will change the directory to the QBox/logs
-    ls # will list all the file of the directory
-    ls -l --block-size=M # will display the size in the long format
-    ls -lt # will display all the files sorted according to the modified time
+    cd ~/workspace/QBox/logs # will escape the current work directory to the directory named workspace
+    # cd QBox/logs # will change the directory to the QBox/logs
+    # ls # will list all the file of the directory
+    ls -l  -rlt # will display the size in the long format
+    # ls -lt # will display all the files sorted according to the modified time
